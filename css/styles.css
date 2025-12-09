@@ -3,3 +3,57 @@ h1{
     border-radius: 10px;
     
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+.cabecera {
+    background-color: rgb(186, 49, 221);
+    color: black;
+    padding: 10px 0;
+    margin-bottom: 20px;
+    border-bottom: solid yellow 5px;
+}
+.contenedor-cabecera{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    height: 80px;
+}
+.logo img {
+    height: 100%;
+    display: block;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
+}
+.lista-menu{
+    list-style: none;
+    display: flex;
+     gap: 15px;
+} 
+
+.lista-menu li a{
+    color: aquamarine;
+    text-decoration: none;
+    font-size: 16px;
+}
+.lista-menu li a: :hover{
+    color:#ffcc00;
+}
